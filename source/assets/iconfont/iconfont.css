@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1048734 */
+  src: url('//at.alicdn.com/t/font_1048734_eupcalpfr5g.eot');
+  src: url('//at.alicdn.com/t/font_1048734_eupcalpfr5g.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1048734_eupcalpfr5g.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1048734_eupcalpfr5g.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1048734_eupcalpfr5g.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1048734_eupcalpfr5g.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle !important;
+    width: 24px;
+    margin-right: 5px;
+    text-align: center;
+    speak: none;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 18px;
+    vertical-align: baseline;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+}
+.iconfont-mini-icon {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle !important;
+    text-align: center;
+    speak: none;
+    font-size: 14px;
+    margin-bottom: 2px;
+    font-variant: normal;
+    text-transform: none;
+    vertical-align: baseline;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+}
+/*意见反馈*/
+.icon-feed_back:before {
+    content: "\e7d1";
+}
+/*退出*/
+.icon-exit:before {
+    content: "\e633";
+}
+/*权限*/
+.icon-tree:before {
+    content: "\e601";
+}
+/*系统权限配置*/
+.icon-amsconfig-mange:before {
+    content: "\ed86";
+}
+/*角色管理*/
+.icon-role-manage:before {
+    content: "\e62d";
+}
+/*权限申请*/
+.icon-ams-apply:before {
+    content: "\e623";
+}
+
+/*我的权限*/
+.icon-my-ams:before {
+    content: "\e7c4";
+}
+
+/*我的权限*/
+.icon-my-record:before {
+    content: "\e687";
+}
+
+
+/*成功*/
+.icon-success:before {
+    content: "\e602";
+}
+
+/*括号*/
+.icon-space-left:before {
+    content: "\e627";
+}
+
+/*括号*/
+.icon-space-right:before {
+    content: "\e628";
+}
+
+/*切换头像*/
+.icon-head-change:before {
+    content: "\e753";
+}
+
+/*切换主题*/
+.icon-background-change:before {
+    content: "\e70d";
+}
+
+/*人员权限查询*/
+.icon-per-query:before {
+    content: "\e616";
+}
+
+/*角色权限查询*/
+.icon-sn-query:before {
+    content: "\e617";
+}
+
+/*权限明细查询*/
+.icon-detail-query:before {
+    content: "\e61a";
+}
+
+

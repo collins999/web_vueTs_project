@@ -1,0 +1,162 @@
+/**项目初始化样式**/
+@import '../common/unit.scss'; // 名称固定前缀
+$style-prefix: "layout";
+
+.#{$style-prefix} {
+    height: 100%;
+
+    &-container {
+        height: 100%;
+    }
+
+    &-logo {
+        // float: left;
+        // width: 145px;
+        // height: 30px;
+        // margin: 17px 10px 13px 0;
+        // // background-image: url('../../assets/image/logo-white.png');
+        // background-repeat: no-repeat;
+        float: left;
+        width: 145px;
+        height: 30px;
+        margin: 17px 10px 13px 0;
+        background-repeat: no-repeat;
+        color: #fff;
+        height: 30px;
+        line-height: 30px;
+        font-size: 30px;
+    }
+
+    &-system {
+        float: left;
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left;
+        margin: 16px 0px;
+        padding-left: 10px;
+        border-left: 5px solid #fff;
+        cursor: pointer;
+    }
+
+    &-system:hover {
+        color: $system-theme-color;
+    }
+
+    &-right {
+        float: right;
+        text-align: right;
+        // padding: 0px 20px;
+        // padding-left: 10px;
+        height: 60px;
+        line-height: 60px;
+        cursor: pointer;
+    }
+
+    &-right:hover {
+        color: #fff;
+        background-color: #f2f6fc36 !important;
+    }
+
+    &-user {
+        display: flex;
+        flex-direction: row;
+        color: #fff;
+        height: 60px;
+        line-height: 60px;
+
+        &-img {
+            margin-top: 8px;
+            padding: 0px 5px;
+        }
+
+        &-min {
+            padding: 0 5px;
+            color: rgba(255, 255, 255, 0.65);
+        }
+
+        &-min:hover {
+            color: #fff;
+        }
+    }
+
+    &-main {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        padding: 0px 50px;
+
+        &-breadcrumb {
+            margin: 20px 0;
+        }
+
+        &-content {
+            height: 100%;
+            min-height: 0;
+            display: flex;
+            flex-direction: row;
+            padding: 24px 0px;
+            background: rgb(255, 255, 255);
+            box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+            border: 1px solid rgba(0, 0, 0, .4);
+            border-radius: 5px;
+
+            &-aside {
+                flex: 0 0 200px;
+                max-width: 200px;
+                min-width: 200px;
+                width: 200px;
+                height: 100%;
+                border-right: solid 1px #e6e6e6;
+
+                .el-menu {
+                    border-right: none;
+                    width: 200px;
+
+                    .is-active {
+                        color: $system-theme-color;
+                        background-color: #e6f7ff;
+                        border-right: solid 1px $system-theme-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.el-header, .el-footer {
+    width: 100%;
+    padding: 0 50px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.el-header {
+    background-color: #001529;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+
+    .el-menu {
+        float: left;
+        border: none !important;
+
+        .is-active {
+            background-color: $system-theme-color !important;
+            color: $system-font-color !important;
+        }
+
+        .el-menu-item {
+            border: none;
+            color: rgba(255, 255, 255, 0.65) !important;
+        }
+
+        .el-menu-item:hover {
+            color: rgb(255, 255, 255) !important;
+            background-color: #f2f6fc36 !important;
+        }
+    }
+}
